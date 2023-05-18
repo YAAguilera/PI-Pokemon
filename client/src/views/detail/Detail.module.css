@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&display=swap');
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url('../../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100vh;
+}
+.button{
+    height: 2em;
+    width: 2em;
+    font-size: medium;
+    margin-top: 1em;
+    margin-left: 70em;
+    background-color: rgb(210, 0, 0);
+}
+.button:hover{
+background-color: red;
+}
+
+.details{
+    margin-top: -2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 15em;
+    font-family: 'Inconsolata', monospace;
+    background-color: rgb(210, 0, 0);
+    width: 12em;
+    border-radius: 10px;
+    border: 5px solid black;
+    color: white;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.img{
+    height: 11em;
+    width: 11em;
+    margin-left: 21em;
+    margin-top: -23em;
+    margin-bottom: 12.8em;
+    filter:saturate(2)
+}

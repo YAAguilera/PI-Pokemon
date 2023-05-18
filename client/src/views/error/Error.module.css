@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&display=swap');
+.main{
+    display: flex;
+    background: url("../../images/bg.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont{
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3em;
+    height: 30em;
+    width: 30em;
+}
+
+.four{
+   font-size: 8em;
+}
+
+.img{
+    height: 6em;
+    width: 6em;
+}
+
+.notfound{
+    color: rgb(210, 0, 0);
+    font-size: 2em;
+    margin-top: 0;
+    margin-left: 1.5em;
+}
+
+.btn {
+
+    font-family: 'Inconsolata', monospace;
+    position: relative;
+    background-color: rgb(210, 0, 0);
+    border-radius: 5px;
+    box-shadow: rgb(121, 18, 55) 0px 4px 0px 0px;
+    padding: 15px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: 154px;
+    height: 49px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+.btn::before {
+    content: "";
+    background-color: rgb(133, 0, 0);
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 700ms ease-in-out;
+    display: inline-block;
+  }
+  
+  .btn:hover::before {
+    width: 100%;
+  }

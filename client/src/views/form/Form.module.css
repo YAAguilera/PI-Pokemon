@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&display=swap');
+.cont{
+    display: flex;
+    background: url("../../images/bg.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 150vh;
+}
+
+.formCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inconsolata', monospace;
+    
+}
+
+.title{
+    margin-top: -3em;
+    font-family: 'Inconsolata', monospace;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.name{
+  display: flex;
+  flex-direction: row;
+}
+.hp{
+  display: flex;
+  flex-direction: row;
+}
+
+.attack{
+  display: flex;
+  flex-direction: row;
+}
+
+.defense{
+  display: flex;
+  flex-direction: row;
+}
+
+.speed{
+  display: flex;
+  flex-direction: row;
+}
+
+.height{
+  display: flex;
+  flex-direction: row;
+}
+
+.weight{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.errors{
+  color: rgb(210, 0, 0);
+  font-size: small;
+  height: 0;
+}
+
+.btn {
+    font-family: 'Inconsolata', monospace;
+    position: relative;
+    background-color: rgb(210, 0, 0);
+    border-radius: 5px;
+    box-shadow: rgb(121, 18, 55) 0px 4px 0px 0px;
+    padding: 15px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: 154px;
+    height: 49px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+    margin-top:1em;
+  }
+  
+.btn::before {
+    content: "";
+    background-color: rgb(133, 0, 0);
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 700ms ease-in-out;
+    display: inline-block;
+  }
+  
+  .btn:hover::before {
+    width: 100%;
+  }
+
+.typesCont{
+    border-color: rgb(210, 0, 0);
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 22em;
+}

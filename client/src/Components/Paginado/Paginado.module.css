@@ -1,0 +1,19 @@
+.fBtn{
+    height: 2em;
+    width: 2em;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-decoration: none;
+    transition: background-color .9s;
+    border-radius: 3px;
+}
+
+.currentPage{
+    color:white;
+    background-color: rgb(210, 0, 0);
+}
+.fooBtn{
+    display: flex;
+    flex-direction: row;
+    gap: 0.2em;
+}

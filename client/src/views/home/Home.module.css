@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap');
+
+.main{
+    background:url('../../images/bg.jpg');
+    display: grid;
+    grid-template-columns: 25em auto;
+    grid-template-rows: 12em auto ;
+    width: 100vw;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    justify-content: center;
+    align-self: center;
+    margin-top: 1em;
+    margin-left:24em;
+    width: 60%;
+    font-size:x-large;
+    font-family: 'Inconsolata', monospace;
+    -webkit-text-stroke: 1px white;
+}
+
+.net{
+    color: rgb(210, 0, 0);
+}
+
+.filter{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9em;
+    margin-left: 7.5em;
+    width: 28%;
+}
+
+.container{
+    margin-left: 17.5em;
+    width: 0;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: grid;
+    justify-content: center;
+}
+
+.pokemonContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 4em;
+    margin-top: 3em;
+}
+.pag {
+    width:8em;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+    margin-left: 14em;
+  }
+
+.footer{
+    margin-top: 10em;
+    width: 100vw;
+    height: 6em;
+    background-color: rgb(210, 0, 0);
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20em;
+    bottom: 0%;
+    top:0%;
+}
+
+.rights{
+    font-family: 'Inconsolata', monospace;
+    color: white;   
+    font-size: x-large;
+}
+
+.linkedinCont{
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.linkIcon{
+    height: 4em;
+    width: 4em;
+}
+
+.linkName{
+    font-family: 'Inconsolata', monospace;
+    color: black;   
+    font-size: x-large; 
+    margin-left: 0.5em;
+    text-decoration-line: none;
+}
+
+
+.load {
+   display: flex;
+   align-self: center;
+   justify-content: center;
+   align-items: center;
+   width: 5em;
+   height: 5em;
+   margin-top: 8em;
+   margin-left: 7em;
+   filter:saturate(2);
+}
+
+

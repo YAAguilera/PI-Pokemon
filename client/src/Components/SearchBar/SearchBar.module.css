@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+    flex-direction: row;
+}
+.main input{
+    width: 20em;
+    height: 2.5em;
+    background-color:white;
+    border-color: white;
+    border-style: solid;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
